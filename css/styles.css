@@ -575,7 +575,12 @@ body {
 }
 
 #participant-29 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/poompui.jpg");
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
 
 #participant-29 .participant-name::before {

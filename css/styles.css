@@ -401,7 +401,7 @@ body {
 }
 
 #participant-18 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Patinya Chalermwong";
 }
 
 #participant-18 .participant-quote::before {

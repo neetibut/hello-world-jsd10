@@ -107,7 +107,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-1 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Amonrat Pratoomchai";
 }
 #participant-1 .participant-quote::before {
   /* content: "Your inspirational quote here." */

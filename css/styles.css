@@ -256,7 +256,7 @@ body {
 }
 
 #participant-10 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Kuhayatee Niseng";
 }
 
 #participant-10 .participant-quote::before {

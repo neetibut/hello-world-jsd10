@@ -662,7 +662,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-34 .participant-name::before {
-  /* content: "Your Name Here"; */
+   content: "Suvitcha Pornsereekul";
 }
 #participant-34 .participant-quote::before {
   /* content: "Your inspirational quote here." */

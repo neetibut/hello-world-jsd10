@@ -638,19 +638,30 @@ body {
 
 /* Next participant */
 #participant-29 {
-  background-color: white;
+  background-color: rgb(47, 22, 47);
 }
 
 #participant-29 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/poompui.jpg");
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
 }
 
 #participant-29 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "PoomPui";
+  font-size: 1rem;
+  color: white;
+  -webkit-text-stroke: 1px rgb(147, 51, 244);
 }
 
 #participant-29 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "You are your only limit. Breakthrough! 💪🏻❤️‍🔥🔥";
+  font-size: 0.8rem;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(121, 245, 185);
 }
 
 /* Next participant */

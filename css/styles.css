@@ -131,7 +131,7 @@ body {
 }
 
 #participant-2 .participant-quote::before {
-  content: "You'll never know until you try.✌🏻"
+  content: "You'll never know until you try.✌🏻";
 }
 
 /* Next participant */
@@ -153,19 +153,19 @@ body {
 
 /* Next participant */
 #participant-4 {
-  background-color: white;
+  background-color: rgb(241, 208, 255);
 }
 
 #participant-4 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/LoverBoi.JPG");
 }
 
 #participant-4 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Eve";
 }
 
 #participant-4 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "I rose up from the dead, I do it all the time.";
 }
 
 /* Next participant */
@@ -307,12 +307,11 @@ body {
 
 /* Next participant */
 #participant-13 {
-  background-image: url("../images/13-1.jpg"); ;
+  background-image: url("../images/13-1.jpg");
 }
 
 #participant-13 .profile-photo {
   background-image: url("../images/13.jpg");
-
 }
 
 #participant-13 .participant-name::before {
@@ -320,7 +319,7 @@ body {
 }
 
 #participant-13 .participant-quote::before {
-  content: "Continue" 
+  content: "Continue";
 }
 
 /* Next participant */
@@ -439,7 +438,7 @@ body {
 }
 
 #participant-20 .participant-quote::before {
-  content: "Pilan Praithongyeam" 
+  content: "Pilan Praithongyeam";
 }
 
 /* Next participant */
@@ -513,7 +512,7 @@ body {
 
 /* Next participant */
 #participant-25 {
-  background-color: #FEEBF6;
+  background-color: #feebf6;
 }
 
 #participant-25 .profile-photo {
@@ -521,14 +520,13 @@ body {
 }
 
 #participant-25 .participant-name::before {
-   content: "Ruksit";
-   font-weight: bold;
-
+  content: "Ruksit";
+  font-weight: bold;
 }
 
 #participant-25 .participant-quote::before {
   font-weight: bold;
-   content: "Why don't you blame others first before blaming yourself ?"
+  content: "Why don't you blame others first before blaming yourself ?";
 }
 
 /* Next participant */
@@ -697,7 +695,7 @@ body {
 }
 
 #participant-34 .participant-name::before {
-   content: "Suvitcha Pornsereekul";
+  content: "Suvitcha Pornsereekul";
 }
 
 #participant-34 .participant-quote::before {
@@ -766,7 +764,6 @@ body {
 
 #participant-38 .participant-name::before {
   content: "Titinart Kamsa-ard";
-
 }
 
 #participant-38 .participant-quote::before {
@@ -818,7 +815,7 @@ body {
 }
 
 #participant-41 .participant-name::before {
-  content:"Watchara Paramee"
+  content: "Watchara Paramee";
 }
 
 #participant-41 .participant-quote::before {
@@ -877,23 +874,25 @@ body {
 
 #participant-43 .profile-photo {
   background-image: url("https://introduction-to-web-application.vercel.app/profile.jpg");
-  clip-path: polygon(evenodd,
-      35.75% 25.45%,
-      63.17% 26.81%,
-      73.25% 10.5%,
-      83.96% 35.5%,
-      89.23% 47.8%,
-      84.41% 69.9%,
-      73.25% 85.5%,
-      60.75% 85.5%,
-      60.75% 85.5%,
-      35.75% 85.5%,
-      35.75% 85.5%,
-      23.25% 85.5%,
-      12.54% 69.9%,
-      9.95% 52.7%,
-      12.54% 35.5%,
-      24.15% 10.5%);
+  clip-path: polygon(
+    evenodd,
+    35.75% 25.45%,
+    63.17% 26.81%,
+    73.25% 10.5%,
+    83.96% 35.5%,
+    89.23% 47.8%,
+    84.41% 69.9%,
+    73.25% 85.5%,
+    60.75% 85.5%,
+    60.75% 85.5%,
+    35.75% 85.5%,
+    35.75% 85.5%,
+    23.25% 85.5%,
+    12.54% 69.9%,
+    9.95% 52.7%,
+    12.54% 35.5%,
+    24.15% 10.5%
+  );
 }
 
 #participant-43 .participant-name::before {

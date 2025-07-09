@@ -760,7 +760,7 @@ body {
 }
 /* Next participant */
 #participant-28 {
-  background-color: black;
+  background-color: blanchedalmond;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ctext x='10' y='50' font-size='30'%3E🐱%3C/text%3E%3Ctext x='50' y='80' font-size='30'%3E😺%3C/text%3E%3Ctext x='60' y='30' font-size='30'%3E😸%3C/text%3E%3C/svg%3E");
   background-size: 100px 100px;
   animation: floatingCats 20s linear infinite;
@@ -768,7 +768,7 @@ body {
 }
 
 #participant-28 .profile-photo {
-  background-image: url("../images/cats.png");
+  background-image: url("../images/kan.jpg");
   border-radius: 5%;
   -webkit-border-radius: 5%;
   -moz-border-radius: 5%;
@@ -778,17 +778,14 @@ body {
 
 #participant-28 .participant-name::before {
   content: "28_Kao";
-  font-size: 1.5rem;
-  color: yellow;
+  font-size: 2rem;
+  color: whitesmoke;
   -webkit-text-stroke: 0.5px rgb(95, 95, 95);
 }
 
 #participant-28 .participant-quote::before {
-  content: "My idol is SOHAM";
-  font-size: bold;
+  content: "My idol is SOHAM 😎";
   color: white;
-  font: bolder;
-  -webkit-text-stroke: 0.2px rgb(95, 95, 95);
 }
 
 /* Next participant */

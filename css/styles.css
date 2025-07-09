@@ -287,19 +287,19 @@ body {
 
 /* Next participant */
 #participant-10 {
-  background-color: white;
+  background-image: linear-gradient(to right bottom, #fb998b, #ffac8b, #ffbf8f, #ffd299, #fde4a7, #fceba8, #fbf2aa, #f8faad, #f6f99d, #f5f88d, #f3f67d, #f1f56b);
 }
 
 #participant-10 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/mydavinci.jpeg");
 }
 
 #participant-10 .participant-name::before {
-  content: "Kuhayatee Niseng";
+  content: "Kuhayatee(Tee)";
 }
 
 #participant-10 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "You can’t stop the waves, but you can learn to surf."
 }
 
 /* Next participant */

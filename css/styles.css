@@ -494,7 +494,7 @@ body {
 }
 
 #participant-24 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Rosarin Rojritthakorn";
 }
 
 #participant-24 .participant-quote::before {

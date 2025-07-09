@@ -137,7 +137,7 @@ body {
 }
 
 #participant-3 .participant-name::before {
-  /* content: "Your Name Here"; */
+   content: "Chonrapee"; 
 }
 
 #participant-3 .participant-quote::before {

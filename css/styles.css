@@ -596,7 +596,7 @@ body {
 }
 
 #participant-30 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Suchakree (Fluke)";
 }
 
 #participant-30 .participant-quote::before {

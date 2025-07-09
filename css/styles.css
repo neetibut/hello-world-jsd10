@@ -93,7 +93,7 @@ body {
 
 /* Please DON'T change the CSS code above! (Except for adding more Google Fonts) */
 
-/* Please DO change the CSS code below 👇 to apply your custom styling! 
+/* Please DO change the CSS code below 👇 to apply your custom styling!
    Find your participant number and have fun 🙌
 */
 
@@ -503,7 +503,7 @@ body {
 
 /* Next participant */
 #participant-25 {
-  background-color: white;
+  background-color: #FEEBF6;
 }
 
 #participant-25 .profile-photo {
@@ -511,11 +511,14 @@ body {
 }
 
 #participant-25 .participant-name::before {
-  /* content: "Your Name Here"; */
+   content: "Ruksit";
+   font-weight: bold;
+
 }
 
 #participant-25 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  font-weight: bold;
+   content: "Why don't you blame others first before blaming yourself ?"
 }
 
 /* Next participant */

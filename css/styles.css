@@ -21,6 +21,7 @@ body {
 
 .title {
   margin-bottom: 20px;
+  text-align: center;
   font-size: 24px;
   color: #333;
   font-family: "Trade Winds", cursive;
@@ -752,6 +753,20 @@ body {
 }
 
 /* Next participant */
+#participant-41 {
+  background-color: white;
+}
+#participant-41 .profile-photo {
+  background-image: url("../images/participant-photo.png");
+}
+#participant-41 .participant-name::before {
+  /* content: "Your Name Here"; */
+}
+#participant-41 .participant-quote::before {
+  /* content: "Your inspirational quote here." */
+}
+
+/* Next participant */
 @keyframes floatingCats {
   0% {
     background-position: 0 0;
@@ -760,14 +775,14 @@ body {
     background-position: 100px 100px;
   }
 }
-#participant-41 {
+#participant-42 {
   background-color: pink;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ctext x='10' y='50' font-size='30'%3E🐱%3C/text%3E%3Ctext x='50' y='80' font-size='30'%3E😺%3C/text%3E%3Ctext x='60' y='30' font-size='30'%3E😸%3C/text%3E%3C/svg%3E");
   background-size: 100px 100px;
   animation: floatingCats 20s linear infinite;
   -webkit-animation: floatingCats 20s linear infinite;
 }
-#participant-41 .profile-photo {
+#participant-42 .profile-photo {
   background-image: url("../images/cats.png");
   border-radius: 5%;
   -webkit-border-radius: 5%;
@@ -775,13 +790,13 @@ body {
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
-#participant-41 .participant-name::before {
+#participant-42 .participant-name::before {
   content: "Kan";
   font-size: 1.5rem;
   color: white;
   -webkit-text-stroke: 0.5px rgb(95, 95, 95);
 }
-#participant-41 .participant-quote::before {
+#participant-42 .participant-quote::before {
   content: "เขียนโค้ดเจอบัคเขียนรักเจอเธอ";
   font-size: medium;
   color: white;
@@ -790,12 +805,12 @@ body {
 }
 
 /* Next participant */
-#participant-42 {
+#participant-43 {
   background-color: #333;
   border: 2px solid #333;
   border-radius: 0;
 }
-#participant-42 .profile-photo {
+#participant-43 .profile-photo {
   background-image: url("https://introduction-to-web-application.vercel.app/profile.jpg");
   clip-path: polygon(
     evenodd,
@@ -817,13 +832,13 @@ body {
     24.15% 10.5%
   );
 }
-#participant-42 .participant-name::before {
+#participant-43 .participant-name::before {
   content: "John Doe";
   color: gold;
   font-weight: 600;
   font-family: monospace;
 }
-#participant-42 .participant-quote::before {
+#participant-43 .participant-quote::before {
   content: "Kindness is the ultimate strength. 😎";
   color: gold;
   font-family: monospace;
@@ -832,18 +847,18 @@ body {
 }
 
 /* Next participant */
-#participant-43 {
+#participant-44 {
   background-color: #e0f7fa;
   border: 3px solid #00796b;
   box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
   border-radius: 15px;
 }
-#participant-43 .profile-photo {
+#participant-44 .profile-photo {
   background-image: url("../images/neetibut-profile.png");
 }
-#participant-43 .participant-name::before {
+#participant-44 .participant-name::before {
   content: "Neeti(นิติ)";
 }
-#participant-43 .participant-quote::before {
+#participant-44 .participant-quote::before {
   content: "Be the change you want to see in the world. 🙌";
 }

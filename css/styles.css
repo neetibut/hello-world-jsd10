@@ -807,20 +807,31 @@ body {
 
 /* Next participant */
 #participant-39 {
-  background-color: white;
+  background-image: url("https://media.myswitzerland.com/image/fetch/c_crop,x_0,y_148,w_4000,h_2250/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://www.myswitzerland.com/-/media/celum%20connect/2022/03/08/09/59/10/view-of-zermatt-and-the-matterhorn.jpg");
+  background-size: cover;
+  border: none;
 }
 
 #participant-39 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/506082698_4927279257498002_3813944922047075266_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=b-Vijvg9uAcQ7kNvwE_Ocy5&_nc_oc=AdkseUVwduddINw0FoLJed_hQqGr4MQDIVxp8crOqCyHmy1vdilA9j-QYSt3qaSUy4I&_nc_zt=23&_nc_ht=scontent.fbkk12-5.fna&_nc_gid=VKYL_oTEBEqbcBFflQOVIA&oh=00_AfRCDJ-khIU033lBByauIeEjvPIV0TE22PNp2kEGmCZ--g&oe=6873FAE9");
+  border: none;
 }
 
 #participant-39 .participant-name::before {
   /* content: "Your Name Here"; */
-  content: "Gam";
+  content: "GAM";
+  font-size: large;
+  font-weight: bolder;
+  color: white;
 }
 
 #participant-39 .participant-quote::before {
   /* content: "Your inspirational quote here." */
+  content: "The world is your oyster!";
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bolder;
+  color: white;
 }
 
 /* Next participant */

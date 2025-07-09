@@ -413,7 +413,7 @@ body {
 }
 
 #participant-19 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Your inspirational quote here."
 }
 
 /* Next participant */

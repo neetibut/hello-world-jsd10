@@ -171,7 +171,7 @@ body {
 }
 
 #participant-5 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Duangharutai Sawaingam";
 }
 
 #participant-5 .participant-quote::before {

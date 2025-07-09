@@ -239,7 +239,7 @@ body {
 }
 
 #participant-9 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Korn-aphichit";
 }
 
 #participant-9 .participant-quote::before {

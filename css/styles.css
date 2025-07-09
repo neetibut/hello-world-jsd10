@@ -376,19 +376,27 @@ body {
 
 /* Next participant */
 #participant-17 {
-  background-color: white;
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGY4Y3p3MG5qZnd0ZzFpbDdocGdrbm15Z3pkNXloajlwOThxZmx6ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oriO32B3ko9G2tBtK/giphy.gif");
+  background-size: cover;
 }
 
 #participant-17 .profile-photo {
-  background-image: url("../images/participant-photo.png");
-}
+  background-image: url("../images/17Oranut.jpg");
+  border-color: rgb(90, 83, 124);
+  }
 
 #participant-17 .participant-name::before {
   content: "Oranut Suphantamat";
+  color: rgb(230, 235, 188);
+  background-color: black;
+  border-radius: 1.5rem;
 }
 
 #participant-17 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "You don't have to be perfect. You just have to start.";
+  color: rgb(230, 235, 188);
+  background-color: black;
+  border-radius: 1.5rem;
 }
 
 /* Next participant */

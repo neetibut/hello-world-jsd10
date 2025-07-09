@@ -101,16 +101,22 @@ body {
 
 /* First participant */
 #participant-1 {
-  background-color: white;
+  background-color: rgba(30, 26, 26, 0.219);
+  background-image: url(https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/470200706_122212620194017001_7869068682794192164_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=L-jhZSTaWrkQ7kNvwE6kyQ5&_nc_oc=AdnA22wka-pfcBxOPXJWO54t2HvC0xJ1zMeLlXQ7pMpFTdVX0d7J4WAvabjwHvYPUaE&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=id1e66nhmGEITbmxYCxDTw&oh=00_AfTuM_8L8dYJJWvT6gTycGeSsBD1loyeznORHRrx83HjiA&oe=68742225);
+  background-size: 200px 300px;
 }
 #participant-1 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/500736960_122242483460017001_1312313451110228493_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=R-Y1iMBbirIQ7kNvwG4-jTN&_nc_oc=AdlKpEJQlGlDdUz_psIrbFzeRyVgUliteobcOxbYKpcx2kBZZLyz4wPp-TM1bmhl6mI&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=pLivHkhupbea4YoxIzjHgw&oh=00_AfT-YHopYZ1Zx4f9IrLYXquN5SODHUgpEhu4AZQB-Cw7yQ&oe=68742C7B");
 }
 #participant-1 .participant-name::before {
   content: "Amonrat Pratoomchai";
+  color: #0d0c0c;
+  display: flex;
+  align-items: center;
 }
 #participant-1 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Change is never easy, but always possible.";
+  color: #000000;
 }
 
 /* Next participant */

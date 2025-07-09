@@ -718,7 +718,8 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-38 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Titinart Kamsa-ard";
+
 }
 #participant-38 .participant-quote::before {
   /* content: "Your inspirational quote here." */

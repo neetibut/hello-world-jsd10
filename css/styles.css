@@ -1,6 +1,7 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+
 /* Default styles */
 body,
 h1 {
@@ -93,96 +94,88 @@ body {
 
 /* Please DON'T change the CSS code above! (Except for adding more Google Fonts) */
 
-/* Please DO change the CSS code below 👇 to apply your custom styling! 
-   /* ตั้งค่าพื้นฐานและ Font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-
-body {
-    /* ใช้สีพื้นหลังและ Font เหมือนในตัวอย่าง */
-    background-color: #111827; 
-    font-family: 'Inter', sans-serif;
-    
-    /* จัดให้อยู่กึ่งกลางหน้าจอ */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
-
-/* กล่องการ์ดหลัก */
-.card {
-    background-color: #1F2937; /* สีพื้นหลังของการ์ด */
-    width: 340px;
-    padding: 30px;
-    border-radius: 16px; /* ทำให้ขอบมน */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    border: 1px solid #374151;
-}
-
-/* รูปโปรไฟล์ */
-.card-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* ทำให้เป็นวงกลม */
-    border: 3px solid #374151; /* เส้นขอบสีเทา */
-    object-fit: cover;
-    margin-bottom: 1rem;
-}
-
-/* ชื่อโปรไฟล์ */
-.card-name {
-    color: #F9FAFB; /* สีขาว */
-    font-size: 1.5rem; /* 24px */
-    font-weight: 700;
-    margin: 0;
-}
-
-/* ตำแหน่ง/คำอธิบาย */
-.card-title {
-    color: #D1D5DB; /* สีเทาอ่อน */
-    font-size: 1rem; /* 16px */
-    margin-top: 0.25rem; /* 4px */
-    margin-bottom: 1.5rem; /* 24px */
-}
-
-/* ส่วนของไอคอนโซเชียล */
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 16px; /* ระยะห่างระหว่างไอคอน */
-}
-
-/* ลิงก์โซเชียล (ตัวไอคอน) */
-.social-links a {
-    color: #9CA3AF; /* สีไอคอนปกติ (เทา) */
-    transition: color 0.2s ease-in-out; /* เพิ่ม animation ตอนเปลี่ยนสี */
-}
-
-/* เมื่อนำเมาส์ไปชี้ที่ไอคอน */
-.social-links a:hover {
-    color: #F9FAFB; /* เปลี่ยนเป็นสีขาว */
-}
-
-.social-links svg {
-    width: 24px;
-    height: 24px;
-}
+/* Please DO change the CSS code below 👇 to apply your custom styling!
+   Find your participant number and have fun 🙌
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Merriweather:ital,wght@1,400&display=swap');
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes blink {
+  0% {
+    color: #E1EFFF; /* สีเริ่มต้น */
+    text-shadow: none;
+  }
+  50% {
+    color: #aaffff; /* สีสว่างขึ้น */
+    text-shadow: 0 0 10px #aaffff, 0 0 20px #aaffff; /* เพิ่มเงา */
+  }
+  100% {
+    color: #E1EFFF; /* กลับสู่สีเริ่มต้น */
+    text-shadow: none;
+  }
+}
+@keyframes slideAndReflect {
+  0% {
+    transform: translateX(-50%);
+    /*เริ่มจากนอกจอทางซ้าย*/color: #90a8c8;
+    text-shadow: none;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  10% {
+    color: #aaffff;
+    text-shadow: 0 0 5px #aaffff; /* เริ่มมีแสง */
+  }
+  50% {
+    transform: translateX(50%);
+    /*วิ่งออกนอกจอทางขวา*/color: #aaffff;
+    text-shadow: 0 0 15px #aaffff;
+    /*แสงจ้าสุด*/
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+  90% {
+    color: #90a8c8;
+    text-shadow: 0 0 5px #aaffff; /* แสงเริ่มหาย */
+  }
+  100% {
+    transform: translateX(-50%);
+    /*วนกลับไปเริ่มต้น*/color: #90a8c8;
+    text-shadow: none;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+}
 /* 🤗 Customization section for each participant */
 
 /* First participant */
 #participant-1 {
   background-color: white;
 }
+
 #participant-1 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-1 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Amonrat Pratoomchai";
 }
+
 #participant-1 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -191,14 +184,17 @@ body {
 #participant-2 {
   background-color: white;
 }
+
 #participant-2 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-2 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Chafik";
 }
+
 #participant-2 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "You'll never know until you try.✌🏻"
 }
 
 /* Next participant */
@@ -245,7 +241,7 @@ body {
 }
 
 #participant-5 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Duangharutai Sawaingam";
 }
 
 #participant-5 .participant-quote::before {
@@ -279,7 +275,7 @@ body {
 }
 
 #participant-7 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Jiradech Khong-ngoen";
 }
 
 #participant-7 .participant-quote::before {
@@ -296,7 +292,7 @@ body {
 }
 
 #participant-8 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Jittawee S.";
 }
 
 #participant-8 .participant-quote::before {
@@ -313,7 +309,7 @@ body {
 }
 
 #participant-9 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Korn-aphichit";
 }
 
 #participant-9 .participant-quote::before {
@@ -330,7 +326,7 @@ body {
 }
 
 #participant-10 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Kuhayatee Niseng";
 }
 
 #participant-10 .participant-quote::before {
@@ -361,10 +357,11 @@ body {
 
 #participant-12 .profile-photo {
   background-image: url("../images/participant-photo.png");
+  background-size: 100px 100px;
 }
 
 #participant-12 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Metee Wongjun-in";
 }
 
 #participant-12 .participant-quote::before {
@@ -373,19 +370,20 @@ body {
 
 /* Next participant */
 #participant-13 {
-  background-color: white;
+  background-image: url("../images/13-1.jpg"); ;
 }
 
 #participant-13 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/13.jpg");
+
 }
 
 #participant-13 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Yeen(ยีนส์)";
 }
 
 #participant-13 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Continue" 
 }
 
 /* Next participant */
@@ -415,7 +413,7 @@ body {
 }
 
 #participant-15 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Nongnapas Thongruang";
 }
 
 #participant-15 .participant-quote::before {
@@ -432,7 +430,7 @@ body {
 }
 
 #participant-16 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Nuttapat Durongphan";
 }
 
 #participant-16 .participant-quote::before {
@@ -449,7 +447,7 @@ body {
 }
 
 #participant-17 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Oranut Suphantamat";
 }
 
 #participant-17 .participant-quote::before {
@@ -466,7 +464,7 @@ body {
 }
 
 #participant-18 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Patinya Chalermwong";
 }
 
 #participant-18 .participant-quote::before {
@@ -504,12 +502,12 @@ body {
 }
 
 #participant-20 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Pilan Praithongyeam" 
 }
 
 /* Next participant */
 #participant-21 {
-  background-color: white;
+  background-color: rgb(255, 0, 119);
 }
 
 #participant-21 .profile-photo {
@@ -517,7 +515,7 @@ body {
 }
 
 #participant-21 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Ryu";
 }
 
 #participant-21 .participant-quote::before {
@@ -552,6 +550,7 @@ body {
 
 #participant-23 .participant-name::before {
   /* content: "Your Name Here"; */
+  content: "Ratthasart Piluek";
 }
 
 #participant-23 .participant-quote::before {
@@ -568,7 +567,7 @@ body {
 }
 
 #participant-24 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Rosarin Rojritthakorn";
 }
 
 #participant-24 .participant-quote::before {
@@ -577,7 +576,7 @@ body {
 
 /* Next participant */
 #participant-25 {
-  background-color: white;
+  background-color: #FEEBF6;
 }
 
 #participant-25 .profile-photo {
@@ -585,11 +584,14 @@ body {
 }
 
 #participant-25 .participant-name::before {
-  /* content: "Your Name Here"; */
+   content: "Ruksit";
+   font-weight: bold;
+
 }
 
 #participant-25 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  font-weight: bold;
+   content: "Why don't you blame others first before blaming yourself ?"
 }
 
 /* Next participant */
@@ -602,64 +604,109 @@ body {
 }
 
 #participant-26 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Sarawoot-K";
 }
 
 #participant-26 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
+/* โค้ดที่สะอาดขึ้นและทำงานเหมือนเดิม */
 
-/* Next participant */
 #participant-27 {
-  background: #afc9ed;
-  background: radial-gradient(circle, #2a3a50 0%, #6f8ab0 100%);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #69b9ff, #23d5ab);
+  background-size: 400% 400%;
+  animation: moveGradient 15s ease infinite;
   border: 1px solid #3a4a60;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
 }
 
 #participant-27:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(233, 248, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(89, 201, 255, 0.2);
 }
 
 #participant-27 .profile-photo {
   background-image: url("../images/bestt.jpg");
-  border: 2px solid #59C9FF; 
-  box-shadow: 0 0 15px rgba(89, 201, 255, 0.5); 
+  background-position-y: 4px;
+  border: 2px solid #ffffff;
+  box-shadow: 12px 0 15px rgba(89, 201, 255, 0.5);
+  border-radius: 5%;
+  /*แก้ไขค่าtransformให้สอดคล้องกันและลบprefixที่ไม่จำเป็น*/transform: translateY(11px);
+  -webkit-transform: translateY(11px);
+  -moz-transform: translateY(11px);
+  -ms-transform: translateY(11px);
+  -o-transform: translateY(11px);
 }
 
 #participant-27 .participant-name::before {
   content: "Best";
   color: #E1EFFF;
-  font-family: 'Poppins', sans-serif; 
-  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  animation: blink 1.5s ease-in-out infinite alternate;
+  /*✨ปรับตำแหน่งตรงนี้ตามต้องการ*/
+  -webkit-animation: blink 1.5s ease-in-out infinite alternate;
 }
-
+#participant-27 .participant-name {
+    transform: translateY(11px);
+    -webkit-transform: translateY(11px);
+    -moz-transform: translateY(11px);
+    -ms-transform: translateY(11px);
+    -o-transform: translateY(11px);
+}
+#participant-27 .participant-quote {
+  position: relative;
+  width: 90%;
+  margin: 15px auto 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 8px 0;
+  overflow: hidden;
+}
 
 #participant-27 .participant-quote::before {
   content: "The Enemy Inside 🤘";
-  color: #90a8c8; 
-  font-family: 'Merriweather', serif; 
+  color: #90a8c8;
+  font-family: 'Merriweather', serif;
   font-style: italic;
   font-size: 0.8rem;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 2px 20px;
+  animation: slideAndReflect 8s linear infinite;
 }
-
 /* Next participant */
 #participant-28 {
-  background-color: white;
+  background-color: black;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ctext x='10' y='50' font-size='30'%3E🐱%3C/text%3E%3Ctext x='50' y='80' font-size='30'%3E😺%3C/text%3E%3Ctext x='60' y='30' font-size='30'%3E😸%3C/text%3E%3C/svg%3E");
+  background-size: 100px 100px;
+  animation: floatingCats 20s linear infinite;
+  -webkit-animation: floatingCats 20s linear infinite;
 }
 
 #participant-28 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/cats.png");
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
 
 #participant-28 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "28_Kao";
+  font-size: 1.5rem;
+  color: yellow;
+  -webkit-text-stroke: 0.5px rgb(95, 95, 95);
 }
 
 #participant-28 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "My idol is SOHAM";
+  font-size: bold;
+  color: white;
+  font: bolder;
+  -webkit-text-stroke: 0.2px rgb(95, 95, 95);
 }
 
 /* Next participant */
@@ -689,7 +736,7 @@ body {
 }
 
 #participant-30 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Suchakree (Fluke)";
 }
 
 #participant-30 .participant-quote::before {
@@ -707,6 +754,10 @@ body {
 
 #participant-31 .participant-name::before {
   /* content: "Your Name Here"; */
+  content: "Supakkit";
+  color: black;
+  font-weight: 700;
+  font-family: monospace;
 }
 
 #participant-31 .participant-quote::before {
@@ -723,7 +774,7 @@ body {
 }
 
 #participant-32 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Supanat Prakobkham";
 }
 
 #participant-32 .participant-quote::before {
@@ -740,7 +791,7 @@ body {
 }
 
 #participant-33 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Supasin Nakphu";
 }
 
 #participant-33 .participant-quote::before {
@@ -751,12 +802,15 @@ body {
 #participant-34 {
   background-color: white;
 }
+
 #participant-34 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-34 .participant-name::before {
-  /* content: "Your Name Here"; */
+   content: "Suvitcha Pornsereekul";
 }
+
 #participant-34 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -765,12 +819,15 @@ body {
 #participant-35 {
   background-color: white;
 }
+
 #participant-35 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-35 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Thanapon Phunthawi";
 }
+
 #participant-35 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -779,12 +836,15 @@ body {
 #participant-36 {
   background-color: white;
 }
+
 #participant-36 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-36 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Kim";
 }
+
 #participant-36 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -793,12 +853,15 @@ body {
 #participant-37 {
   background-color: white;
 }
+
 #participant-37 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-37 .participant-name::before {
   /* content: "Your Name Here"; */
 }
+
 #participant-37 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -807,12 +870,16 @@ body {
 #participant-38 {
   background-color: white;
 }
+
 #participant-38 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-38 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Titinart Kamsa-ard";
+
 }
+
 #participant-38 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -821,12 +888,16 @@ body {
 #participant-39 {
   background-color: white;
 }
+
 #participant-39 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-39 .participant-name::before {
   /* content: "Your Name Here"; */
+  content: "Gam";
 }
+
 #participant-39 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -835,12 +906,15 @@ body {
 #participant-40 {
   background-color: white;
 }
+
 #participant-40 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-40 .participant-name::before {
   /* content: "Your Name Here"; */
 }
+
 #participant-40 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -849,12 +923,15 @@ body {
 #participant-41 {
   background-color: white;
 }
+
 #participant-41 .profile-photo {
   background-image: url("../images/participant-photo.png");
 }
+
 #participant-41 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content:"Watchara Paramee"
 }
+
 #participant-41 .participant-quote::before {
   /* content: "Your inspirational quote here." */
 }
@@ -864,10 +941,12 @@ body {
   0% {
     background-position: 0 0;
   }
+
   100% {
     background-position: 100px 100px;
   }
 }
+
 #participant-42 {
   background-color: pink;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ctext x='10' y='50' font-size='30'%3E🐱%3C/text%3E%3Ctext x='50' y='80' font-size='30'%3E😺%3C/text%3E%3Ctext x='60' y='30' font-size='30'%3E😸%3C/text%3E%3C/svg%3E");
@@ -875,6 +954,7 @@ body {
   animation: floatingCats 20s linear infinite;
   -webkit-animation: floatingCats 20s linear infinite;
 }
+
 #participant-42 .profile-photo {
   background-image: url("../images/cats.png");
   border-radius: 5%;
@@ -883,12 +963,14 @@ body {
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
+
 #participant-42 .participant-name::before {
   content: "Kan";
   font-size: 1.5rem;
   color: white;
   -webkit-text-stroke: 0.5px rgb(95, 95, 95);
 }
+
 #participant-42 .participant-quote::before {
   content: "เขียนโค้ดเจอบัคเขียนรักเจอเธอ";
   font-size: medium;
@@ -903,34 +985,35 @@ body {
   border: 2px solid #333;
   border-radius: 0;
 }
+
 #participant-43 .profile-photo {
   background-image: url("https://introduction-to-web-application.vercel.app/profile.jpg");
-  clip-path: polygon(
-    evenodd,
-    35.75% 25.45%,
-    63.17% 26.81%,
-    73.25% 10.5%,
-    83.96% 35.5%,
-    89.23% 47.8%,
-    84.41% 69.9%,
-    73.25% 85.5%,
-    60.75% 85.5%,
-    60.75% 85.5%,
-    35.75% 85.5%,
-    35.75% 85.5%,
-    23.25% 85.5%,
-    12.54% 69.9%,
-    9.95% 52.7%,
-    12.54% 35.5%,
-    24.15% 10.5%
-  );
+  clip-path: polygon(evenodd,
+      35.75% 25.45%,
+      63.17% 26.81%,
+      73.25% 10.5%,
+      83.96% 35.5%,
+      89.23% 47.8%,
+      84.41% 69.9%,
+      73.25% 85.5%,
+      60.75% 85.5%,
+      60.75% 85.5%,
+      35.75% 85.5%,
+      35.75% 85.5%,
+      23.25% 85.5%,
+      12.54% 69.9%,
+      9.95% 52.7%,
+      12.54% 35.5%,
+      24.15% 10.5%);
 }
+
 #participant-43 .participant-name::before {
   content: "John Doe";
   color: gold;
   font-weight: 600;
   font-family: monospace;
 }
+
 #participant-43 .participant-quote::before {
   content: "Kindness is the ultimate strength. 😎";
   color: gold;
@@ -945,13 +1028,20 @@ body {
   border: 3px solid #00796b;
   box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
   border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
+
 #participant-44 .profile-photo {
   background-image: url("../images/neetibut-profile.png");
 }
+
 #participant-44 .participant-name::before {
   content: "Neeti(นิติ)";
 }
+
 #participant-44 .participant-quote::before {
   content: "Be the change you want to see in the world. 🙌";
 }

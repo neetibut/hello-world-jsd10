@@ -375,7 +375,7 @@ body {
 }
 
 #participant-17 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Oranut Suphantamat";
 }
 
 #participant-17 .participant-quote::before {

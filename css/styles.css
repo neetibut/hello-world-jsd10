@@ -624,7 +624,7 @@ body {
 }
 
 #participant-27 .profile-photo {
-  background-image: url("https://scontent.furt1-1.fna.fbcdn.net/v/t39.30808-1/323563885_869708560824619_7324132439651201110_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ci4gb50yWoAQ7kNvwEyUkIw&_nc_oc=AdnD50NzvNocoH-Murkq2vtE2SrfH62lpTM7m_UPo0I0ffNSGHI23Q8tDf_bKzjmgp0&_nc_zt=24&_nc_ht=scontent.furt1-1.fna&_nc_gid=_8qHcX0XFZMJiQu1qxyPLw&oh=00_AfTantxmllbKEu3K6QjM2q_UK1wXN7cyno9Ou4YaDYjOjA&oe=6873FC07 ");
+  background-image: url("../images/bestt.jpg");
   border: 2px solid #59C9FF; 
   box-shadow: 0 0 15px rgba(89, 201, 255, 0.5); 
 }
@@ -638,9 +638,9 @@ body {
 
 
 #participant-27 .participant-quote::before {
-  content: "The Enemy Inside";
-  color: #90a8c8; /* เปลี่ยนสีตัวอักษรเป็นสีเทาฟ้า */
-  font-family: 'Merriweather', serif; /* เปลี่ยน Font ให้ดูสวยงาม */
+  content: "The Enemy Inside 🤘";
+  color: #90a8c8; 
+  font-family: 'Merriweather', serif; 
   font-style: italic;
   font-size: 0.8rem;
 }

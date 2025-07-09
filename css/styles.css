@@ -697,7 +697,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-35 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Thanapon Phunthawi";
 }
 #participant-35 .participant-quote::before {
   /* content: "Your inspirational quote here." */

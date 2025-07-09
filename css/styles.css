@@ -571,7 +571,7 @@ body {
 
 /* Next participant */
 #participant-29 {
-  background-color: white;
+  background-color: rgb(47, 22, 47);
 }
 
 #participant-29 .profile-photo {
@@ -591,7 +591,10 @@ body {
 }
 
 #participant-29 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "You are your only limit. Breakthrough! 💪🏻❤️‍🔥🔥";
+  font-size: 0.8rem;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(121, 245, 185);
 }
 
 /* Next participant */

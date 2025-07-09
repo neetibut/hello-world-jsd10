@@ -733,6 +733,7 @@ body {
 }
 #participant-39 .participant-name::before {
   /* content: "Your Name Here"; */
+  content: "Gam";
 }
 #participant-39 .participant-quote::before {
   /* content: "Your inspirational quote here." */

@@ -291,7 +291,7 @@ body {
 }
 
 #participant-12 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Metee Wongjun-in";
 }
 
 #participant-12 .participant-quote::before {

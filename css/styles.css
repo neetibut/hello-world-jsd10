@@ -437,7 +437,7 @@ body {
 
 /* Next participant */
 #participant-21 {
-  background-color: white;
+  background-color: rgb(255, 0, 119);
 }
 
 #participant-21 .profile-photo {
@@ -445,7 +445,7 @@ body {
 }
 
 #participant-21 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Ryu";
 }
 
 #participant-21 .participant-quote::before {

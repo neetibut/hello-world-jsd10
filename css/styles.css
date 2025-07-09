@@ -613,7 +613,7 @@ body {
 }
 
 #participant-31 .participant-name::before {
-  /* content: "Your Name Here"; */
+    content: "Thunyaluk Luecha";
 }
 
 #participant-31 .participant-quote::before {

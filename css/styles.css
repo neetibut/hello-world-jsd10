@@ -97,7 +97,70 @@ body {
 /* Please DO change the CSS code below 👇 to apply your custom styling!
    Find your participant number and have fun 🙌
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Merriweather:ital,wght@1,400&display=swap');
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes blink {
+  0% {
+    color: #E1EFFF; /* สีเริ่มต้น */
+    text-shadow: none;
+  }
+  50% {
+    color: #aaffff; /* สีสว่างขึ้น */
+    text-shadow: 0 0 10px #aaffff, 0 0 20px #aaffff; /* เพิ่มเงา */
+  }
+  100% {
+    color: #E1EFFF; /* กลับสู่สีเริ่มต้น */
+    text-shadow: none;
+  }
+}
+@keyframes slideAndReflect {
+  0% {
+    transform: translateX(-50%);
+    /*เริ่มจากนอกจอทางซ้าย*/color: #90a8c8;
+    text-shadow: none;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  10% {
+    color: #aaffff;
+    text-shadow: 0 0 5px #aaffff; /* เริ่มมีแสง */
+  }
+  50% {
+    transform: translateX(50%);
+    /*วิ่งออกนอกจอทางขวา*/color: #aaffff;
+    text-shadow: 0 0 15px #aaffff;
+    /*แสงจ้าสุด*/
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+}
+  90% {
+    color: #90a8c8;
+    text-shadow: 0 0 5px #aaffff; /* แสงเริ่มหาย */
+  }
+  100% {
+    transform: translateX(-50%);
+    /*วนกลับไปเริ่มต้น*/color: #90a8c8;
+    text-shadow: none;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+}
 /* 🤗 Customization section for each participant */
 
 /* First participant */
@@ -586,23 +649,71 @@ body {
   /* content: "Your inspirational quote here." */
 }
 
-/* Next participant */
+
 #participant-27 {
-  background-color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #69b9ff, #23d5ab);
+  background-size: 400% 400%;
+  animation: moveGradient 15s ease infinite;
+  border: 1px solid #3a4a60;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+#participant-27:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(89, 201, 255, 0.2);
 }
 
 #participant-27 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/bestt.jpg");
+  background-position-y: 4px;
+  border: 2px solid #ffffff;
+  box-shadow: 12px 0 15px rgba(89, 201, 255, 0.5);
+  border-radius: 5%;
+  /*แก้ไขค่าtransformให้สอดคล้องกันและลบprefixที่ไม่จำเป็น*/transform: translateY(11px);
+  -webkit-transform: translateY(11px);
+  -moz-transform: translateY(11px);
+  -ms-transform: translateY(11px);
+  -o-transform: translateY(11px);
 }
 
 #participant-27 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Best";
+  color: #E1EFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  animation: blink 1.5s ease-in-out infinite alternate;
+  /*✨ปรับตำแหน่งตรงนี้ตามต้องการ*/
+  -webkit-animation: blink 1.5s ease-in-out infinite alternate;
+}
+#participant-27 .participant-name {
+    transform: translateY(11px);
+    -webkit-transform: translateY(11px);
+    -moz-transform: translateY(11px);
+    -ms-transform: translateY(11px);
+    -o-transform: translateY(11px);
+}
+#participant-27 .participant-quote {
+  position: relative;
+  width: 90%;
+  margin: 15px auto 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 8px 0;
+  overflow: hidden;
 }
 
 #participant-27 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "The Enemy Inside 🤘";
+  color: #90a8c8;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 0.8rem;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 2px 20px;
+  animation: slideAndReflect 8s linear infinite;
 }
-
 /* Next participant */
 #participant-28 {
   background-color: black;
@@ -978,6 +1089,10 @@ body {
   border: 3px solid #00796b;
   box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
   border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 #participant-44 .profile-photo {

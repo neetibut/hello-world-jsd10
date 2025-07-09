@@ -715,7 +715,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-36 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Kim";
 }
 #participant-36 .participant-quote::before {
   /* content: "Your inspirational quote here." */

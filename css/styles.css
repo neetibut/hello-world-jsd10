@@ -235,11 +235,12 @@ body {
 }
 
 #participant-8 .participant-quote::before {
-  content: "💻 It’s never too late to become what I might have been.✌️";
+  content: "💻 Every line of code is a step away from who I was — and closer to who I’m becoming.✌️";
   color: rgb(148, 145, 129);
   font-family: monospace;
   font-style: normal;
   font-weight: 350;
+  font-size: 0.5rem;
 }
 
 /* Next participant */

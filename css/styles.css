@@ -635,6 +635,10 @@ body {
 
 #participant-31 .participant-name::before {
   /* content: "Your Name Here"; */
+  content: "Supakkit";
+  color: black;
+  font-weight: 700;
+  font-family: monospace;
 }
 
 #participant-31 .participant-quote::before {

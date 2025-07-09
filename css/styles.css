@@ -440,11 +440,11 @@ body {
 }
 
 #participant-19 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Peerawit Sutthatharn";
 }
 
 #participant-19 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Your inspirational quote here."
 }
 
 /* Next participant */

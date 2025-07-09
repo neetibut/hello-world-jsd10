@@ -579,7 +579,10 @@ body {
 }
 
 #participant-29 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "PoomPui";
+  font-size: 1rem;
+  color: white;
+  -webkit-text-stroke: 1px rgb(147, 51, 244);
 }
 
 #participant-29 .participant-quote::before {

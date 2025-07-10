@@ -285,19 +285,31 @@ body {
 
 /* Next participant */
 #participant-7 {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("https://media1.tenor.com/m/M_lml-ZzEtUAAAAd/chelsea-flag.gif");
+  background-size: cover;
+  /* background-color: #e0f7fa; */
+  border: 3px solid #cdcdcdae;
+  box-shadow: 0 4px 10px rgba(5, 12, 146, 0.653);
+  border-radius: 15px;
 }
 
 #participant-7 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://avatars.githubusercontent.com/u/196518398?v=4");
 }
 
 #participant-7 .participant-name::before {
-  content: "Jiradech Khong-ngoen";
+  content: "BOSS_JRD.";
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #participant-7 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Be the change that you wish to see in the world. 🌐🌍";
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /* Next participant */

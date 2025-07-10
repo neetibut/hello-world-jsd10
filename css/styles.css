@@ -529,19 +529,23 @@ body {
 
 /* Next participant */
 #participant-19 {
-  background-color: white;
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWNuaTBhbnMweHNmbWo5ZzZyNXg0b2psZ3p4Z3dmaWNja2JpbWJ0cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NbQEszsnkMt8Y/giphy.gif");
+  background-size: cover;
+  background-position: center center;
 }
 
 #participant-19 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://avatars.githubusercontent.com/u/219802085?s=400&u=48230e1a1be8d51a06dc588371ab37bb646c1938&v=4");
 }
 
 #participant-19 .participant-name::before {
-  content: "Peerawit Sutthatharn";
+  content: "Peerawit(GOT)";
+  color: white;
 }
 
 #participant-19 .participant-quote::before {
-  content: "Your inspirational quote here."
+  content: "HELLO WORLD! I'M HERE";
+  color: white;
 }
 
 /* Next participant */

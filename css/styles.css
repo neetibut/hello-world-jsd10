@@ -887,20 +887,39 @@ body {
 
 /* Next participant */
 #participant-35 {
-  background-color: white;
+  background-image: url("https://media1.tenor.com/m/55_ZVxH7sN0AAAAd/my-hero-academia-all-might.gif");
+  background-size: cover;
+  border: 4px #505050 solid;
+}
+
+#participant-35:hover {
+    animation: pulse-animation 2s infinite;
+  }
+
+  @keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px hsla(0, 0%, 0%, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px hsla(0, 0%, 0%, 0);
+  }
 }
 
 #participant-35 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+   background-image: url("../images/golf-profile.jpg");
 }
 
 #participant-35 .participant-name::before {
-  content: "Thanapon Phunthawi";
+  content: "Golf-Thanapon";
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
 #participant-35 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
-}
+  content: "You can become, If you want to be.🥇";
+  color: hsl(0, 0%, 80%);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 /* Next participant */
 #participant-36 {

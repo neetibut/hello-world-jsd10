@@ -453,19 +453,24 @@ body {
 
 /* Next participant */
 #participant-16 {
-  background-color: white;
+  background-color: #FFE4B5;
+  border: 3px solid #DAA520;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
 
 #participant-16 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("/images/TOM.jpg");
 }
 
 #participant-16 .participant-name::before {
-  content: "Nuttapat Durongphan";
+  content: "Nuttapat D.";
+  color: #333;
 }
 
 #participant-16 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Your attitude determines your altitude in life.";
+  color: #333;
 }
 
 /* Next participant */

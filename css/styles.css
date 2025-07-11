@@ -660,20 +660,20 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgb(238, 229, 151);
-  border-style: inset;
-}
-#participant-34:hover{
-  background-image: linear-gradient(160deg,rgb(20, 145, 145) 0%, rgb(208, 241, 212) 60%,rgb(213, 235, 135));
-  background-size: 12.5% 100%;
   border: 4px solid #f3ca61;
-  background-repeat: repeat;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
-  border-style: outset;
+  border-style: inset;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+#participant-34:hover{
+  background-image: linear-gradient(160deg,rgb(20, 145, 145) 0%, rgb(208, 241, 212) 60%,rgb(213, 235, 135));
+  background-size: 12.5% 100%;
+  background-repeat: repeat;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
+  border-style: outset;
 }
 @keyframes changeDir{
   0% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }

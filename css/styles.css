@@ -1009,11 +1009,11 @@ body {
 
 /* Next participant */
 #participant-41 {
-  background-color: white;
+  background-color: black;
 }
 
 #participant-41 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://www.facebook.com/photo/?fbid=7264777096900287&set=a.137292869648781");
 }
 
 #participant-41 .participant-name::before {
@@ -1021,7 +1021,8 @@ body {
 }
 
 #participant-41 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+ content: "Don't just wish for it. Work for it."
+
 }
 
 /* Next participant */

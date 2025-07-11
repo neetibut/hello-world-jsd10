@@ -1060,20 +1060,45 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 /* Next participant */
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
 #participant-36 {
-  background-color: white;
+  overflow: auto;
+  background: linear-gradient(
+    315deg,
+    rgba(101, 0, 94, 1) 3%,
+    rgba(60, 132, 206, 1) 38%,
+    rgba(48, 238, 226, 1) 68%,
+    rgba(255, 25, 25, 1) 98%
+  );
+  animation: gradient 10s ease infinite;
+  background-size: 350% 350%;
+  background-attachment: fixed;
 }
 
 #participant-36 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://preview.redd.it/whats-your-favorite-black-cat-meme-this-is-definitely-top-v0-dudhl2ecakid1.jpeg?width=550&format=pjpg&auto=webp&s=cacf2c9a914c4babef51c235a1b5367eaab0e087");
 }
 
 #participant-36 .participant-name::before {
   content: "Kim";
+  color: white;
 }
 
 #participant-36 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "諦めないで.";
+  color: white;
+  font-weight: 700;
+  background-color: red;
 }
 
 /* Next participant */

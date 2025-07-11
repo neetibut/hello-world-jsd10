@@ -588,11 +588,12 @@ body {
 
 /* Next participant */
 #participant-30 {
-  background-color: white;
+  background-image: url(hhttps://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnRndWdod3AzanRsN2F2eG8xZDU3dWZ3ZWFnNG1pNGF1aTEyZjZmZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/krQzJaxbU1aXS/giphy.gif);
+  background-size: cover;
 }
 
 #participant-30 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("/images/Deathly_Hallows_Sign.png");
 }
 
 #participant-30 .participant-name::before {
@@ -600,7 +601,7 @@ body {
 }
 
 #participant-30 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "This is the way"
 }
 
 /* Next participant */

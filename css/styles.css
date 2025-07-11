@@ -97,7 +97,7 @@ body {
 /* Please DO change the CSS code below 👇 to apply your custom styling!
    Find your participant number and have fun 🙌
 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Merriweather:ital,wght@1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Merriweather:ital,wght@1,400&display=swap");
 @keyframes moveGradient {
   0% {
     background-position: 0% 50%;
@@ -111,7 +111,7 @@ body {
 }
 @keyframes blink {
   0% {
-    color: #E1EFFF; /* สีเริ่มต้น */
+    color: #e1efff; /* สีเริ่มต้น */
     text-shadow: none;
   }
   50% {
@@ -119,47 +119,50 @@ body {
     text-shadow: 0 0 10px #aaffff, 0 0 20px #aaffff; /* เพิ่มเงา */
   }
   100% {
-    color: #E1EFFF; /* กลับสู่สีเริ่มต้น */
+    color: #e1efff; /* กลับสู่สีเริ่มต้น */
     text-shadow: none;
   }
 }
 @keyframes slideAndReflect {
   0% {
     transform: translateX(-50%);
-    /*เริ่มจากนอกจอทางซ้าย*/color: #90a8c8;
+    /*เริ่มจากนอกจอทางซ้าย*/
+    color: #90a8c8;
     text-shadow: none;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-}
+  }
   10% {
     color: #aaffff;
     text-shadow: 0 0 5px #aaffff; /* เริ่มมีแสง */
   }
   50% {
     transform: translateX(50%);
-    /*วิ่งออกนอกจอทางขวา*/color: #aaffff;
+    /*วิ่งออกนอกจอทางขวา*/
+    color: #aaffff;
     text-shadow: 0 0 15px #aaffff;
     /*แสงจ้าสุด*/
     -webkit-transform: translateX(50%);
     -moz-transform: translateX(50%);
     -ms-transform: translateX(50%);
     -o-transform: translateX(50%);
-}
+  }
   90% {
     color: #90a8c8;
     text-shadow: 0 0 5px #aaffff; /* แสงเริ่มหาย */
   }
   100% {
     transform: translateX(-50%);
-    /*วนกลับไปเริ่มต้น*/color: #90a8c8;
+    /*วนกลับไปเริ่มต้น*/
+    color: #90a8c8;
     text-shadow: none;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-}
+  }
 }
 /* 🤗 Customization section for each participant */
 
@@ -188,7 +191,7 @@ body {
 
 /* Next participant */
 #participant-2 {
-  background-color: #F9F5F0;
+  background-color: #f9f5f0;
   border: 0;
   /* border-color: #B87F57; */
   box-shadow: rgba(184, 127, 87, 0.15) 0px 10px 15px 0px;
@@ -201,7 +204,7 @@ body {
 
 #participant-2 .participant-name::before {
   content: "Chafik(ฟิก)";
-  color: #4A3F35;
+  color: #4a3f35;
 }
 
 #participant-2 .participant-quote::before {
@@ -210,7 +213,7 @@ body {
 
 /* Next participant */
 #participant-3 {
-  background-color:plum;
+  background-color: plum;
   box-shadow: 0 5px 10px pink;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -224,12 +227,12 @@ body {
 }
 
 #participant-3 .participant-name::before {
-   content: "Chonrapee"; 
-   color: #333;
+  content: "Chonrapee";
+  color: #333;
 }
 
 #participant-3 .participant-quote::before {
-   content: "Live today. Stay positive." 
+  content: "Live today. Stay positive.";
 }
 
 /* Next participant */
@@ -301,13 +304,13 @@ body {
 #participant-7 .participant-name::before {
   content: "BOSS_JRD.";
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 #participant-7 .participant-quote::before {
   content: "Be the change that you wish to see in the world. 🌐🌍";
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   font-style: normal;
 }
@@ -362,7 +365,21 @@ body {
 
 /* Next participant */
 #participant-10 {
-  background-image: linear-gradient(to right bottom, #fb998b, #ffac8b, #ffbf8f, #ffd299, #fde4a7, #fceba8, #fbf2aa, #f8faad, #f6f99d, #f5f88d, #f3f67d, #f1f56b);
+  background-image: linear-gradient(
+    to right bottom,
+    #fb998b,
+    #ffac8b,
+    #ffbf8f,
+    #ffd299,
+    #fde4a7,
+    #fceba8,
+    #fbf2aa,
+    #f8faad,
+    #f6f99d,
+    #f5f88d,
+    #f3f67d,
+    #f1f56b
+  );
 }
 
 #participant-10 .profile-photo {
@@ -374,7 +391,7 @@ body {
 }
 
 #participant-10 .participant-quote::before {
-  content: "You can’t stop the waves, but you can learn to surf."
+  content: "You can’t stop the waves, but you can learn to surf.";
 }
 
 /* Next participant */
@@ -391,7 +408,7 @@ body {
 }
 
 #participant-11 .participant-quote::before {
-  content: "okzig"
+  content: "okzig";
 }
 
 /* Next participant */
@@ -465,8 +482,8 @@ body {
 
 /* Next participant */
 #participant-16 {
-  background-color: #FFE4B5;
-  border: 3px solid #DAA520;
+  background-color: #ffe4b5;
+  border: 3px solid #daa520;
   box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
   border-radius: 15px;
 }
@@ -494,7 +511,7 @@ body {
 #participant-17 .profile-photo {
   background-image: url("../images/17Oranut.jpg");
   border-color: rgb(90, 83, 124);
-  }
+}
 
 #participant-17 .participant-name::before {
   content: "Oranut Suphantamat";
@@ -670,7 +687,6 @@ body {
   /* content: "Your inspirational quote here." */
 }
 
-
 #participant-27 {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #69b9ff, #23d5ab);
   background-size: 400% 400%;
@@ -691,7 +707,8 @@ body {
   border: 2px solid #ffffff;
   box-shadow: 12px 0 15px rgba(89, 201, 255, 0.5);
   border-radius: 5%;
-  /*แก้ไขค่าtransformให้สอดคล้องกันและลบprefixที่ไม่จำเป็น*/transform: translateY(11px);
+  /*แก้ไขค่าtransformให้สอดคล้องกันและลบprefixที่ไม่จำเป็น*/
+  transform: translateY(11px);
   -webkit-transform: translateY(11px);
   -moz-transform: translateY(11px);
   -ms-transform: translateY(11px);
@@ -700,19 +717,19 @@ body {
 
 #participant-27 .participant-name::before {
   content: "Best";
-  color: #E1EFFF;
-  font-family: 'Poppins', sans-serif;
+  color: #e1efff;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2rem;
   animation: blink 1.5s ease-in-out infinite alternate;
   /*✨ปรับตำแหน่งตรงนี้ตามต้องการ*/
   -webkit-animation: blink 1.5s ease-in-out infinite alternate;
 }
 #participant-27 .participant-name {
-    transform: translateY(11px);
-    -webkit-transform: translateY(11px);
-    -moz-transform: translateY(11px);
-    -ms-transform: translateY(11px);
-    -o-transform: translateY(11px);
+  transform: translateY(11px);
+  -webkit-transform: translateY(11px);
+  -moz-transform: translateY(11px);
+  -ms-transform: translateY(11px);
+  -o-transform: translateY(11px);
 }
 #participant-27 .participant-quote {
   position: relative;
@@ -727,7 +744,7 @@ body {
 #participant-27 .participant-quote::before {
   content: "The Enemy Inside 🤘";
   color: #90a8c8;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-style: italic;
   font-size: 0.8rem;
   display: inline-block;
@@ -874,7 +891,7 @@ body {
 
 /* Next participant */
 #participant-34 {
-  background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hnOWhhcHdodnFlYzF5azVoZGxjazUycWtzYW1nbHF4ZmN5dDk3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SLAe6QZljBbd6/giphy.gif");
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hnOWhhcHdodnFlYzF5azVoZGxjazUycWtzYW1nbHF4ZmN5dDk3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SLAe6QZljBbd6/giphy.gif");
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: rgb(238, 229, 151);
@@ -886,18 +903,47 @@ body {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-#participant-34:hover{
-  background-image: linear-gradient(160deg,rgb(20, 145, 145) 0%, rgb(208, 241, 212) 60%,rgb(213, 235, 135));
+#participant-34:hover {
+  background-image: linear-gradient(
+    160deg,
+    rgb(20, 145, 145) 0%,
+    rgb(208, 241, 212) 60%,
+    rgb(213, 235, 135)
+  );
   background-size: 12.5% 100%;
   background-repeat: repeat;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
   border-style: outset;
 }
-@keyframes changeDir{
-  0% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
-  25% { transform: translateX(30px) rotate(40deg); -webkit-transform: translateX(30px) rotate(40deg); -moz-transform: translateX(30px) rotate(40deg); -ms-transform: translateX(30px) rotate(40deg); -o-transform: translateX(30px) rotate(40deg); }
-  75% { transform: translateX(-30px) rotate(-40deg); -webkit-transform: translateX(-30px) rotate(-40deg); -moz-transform: translateX(-30px) rotate(-40deg); -ms-transform: translateX(-30px) rotate(-40deg); -o-transform: translateX(-30px) rotate(-40deg); }
-  100% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
+@keyframes changeDir {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -moz-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    -o-transform: translateX(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateX(30px) rotate(40deg);
+    -webkit-transform: translateX(30px) rotate(40deg);
+    -moz-transform: translateX(30px) rotate(40deg);
+    -ms-transform: translateX(30px) rotate(40deg);
+    -o-transform: translateX(30px) rotate(40deg);
+  }
+  75% {
+    transform: translateX(-30px) rotate(-40deg);
+    -webkit-transform: translateX(-30px) rotate(-40deg);
+    -moz-transform: translateX(-30px) rotate(-40deg);
+    -ms-transform: translateX(-30px) rotate(-40deg);
+    -o-transform: translateX(-30px) rotate(-40deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+    -webkit-transform: translateX(0px) rotate(0deg);
+    -moz-transform: translateX(0px) rotate(0deg);
+    -ms-transform: translateX(0px) rotate(0deg);
+    -o-transform: translateX(0px) rotate(0deg);
+  }
 }
 
 #participant-34 .profile-photo {
@@ -935,19 +981,22 @@ body {
   -webkit-animation: pulsate 2.5s infinite alternate;
 }
 @keyframes pulsate {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-      text-shadow:
-      3px 2px 4px #29a6aa,
-      3px 2px 11px #29a6aa,
-      3px 2px 19px #29a6aa,
-      0 0 40px rgb(251, 255, 0),
-      0 0 80px rgb(251, 255, 0),
-      0 0 90px rgb(251, 255, 0),
-      0 0 100px rgb(251, 255, 0),
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 3px 2px 4px #29a6aa, 3px 2px 11px #29a6aa, 3px 2px 19px #29a6aa,
+      0 0 40px rgb(251, 255, 0), 0 0 80px rgb(251, 255, 0),
+      0 0 90px rgb(251, 255, 0), 0 0 100px rgb(251, 255, 0),
       0 0 150px rgb(251, 255, 0);
   }
-  20%, 24%, 55% {
-      text-shadow: none;
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
   }
 }
 #participant-34:hover .participant-name::before {
@@ -960,12 +1009,12 @@ body {
 }
 
 #participant-34 .participant-quote::before {
-  content: "ความสำเร็จไม่ได้สร้างเสร็จในวันเดียว" ;
+  content: "ความสำเร็จไม่ได้สร้างเสร็จในวันเดียว";
   font-size: 0.8rem;
   font-style: normal;
 }
 #participant-34:hover .participant-quote::before {
-     content: "👓 💊 🔍 🕵️ ความจริงมีเพียงหนึ่งเดียวเท่านั้น...!" ;
+  content: "👓 💊 🔍 🕵️ ความจริงมีเพียงหนึ่งเดียวเท่านั้น...!";
 }
 
 /* Next participant */
@@ -976,10 +1025,10 @@ body {
 }
 
 #participant-35:hover {
-    animation: pulse-animation 2s infinite;
-  }
+  animation: pulse-animation 2s infinite;
+}
 
-  @keyframes pulse-animation {
+@keyframes pulse-animation {
   0% {
     box-shadow: 0 0 0 0px hsla(0, 0%, 0%, 0.2);
   }
@@ -989,7 +1038,7 @@ body {
 }
 
 #participant-35 .profile-photo {
-   background-image: url("../images/golf-profile.jpg");
+  background-image: url("../images/golf-profile.jpg");
 }
 
 #participant-35 .participant-name::before {
@@ -1002,8 +1051,8 @@ body {
 #participant-35 .participant-quote::before {
   content: "You can become, If you want to be.🥇";
   color: hsl(0, 0%, 80%);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 /* Next participant */
 #participant-36 {
   background-color: white;
@@ -1095,18 +1144,18 @@ body {
 }
 
 #participant-40 .participant-name::before {
-   content: "เป้";
-   color:aqua;
-   font-weight: 600;
-   font-family: monospace;
+  content: "เป้";
+  color: aqua;
+  font-weight: 600;
+  font-family: monospace;
 }
 
 #participant-40 .participant-quote::before {
-   content: "May the cat be with you!" ;
-   color: aqua;
-   font-family: monospace;
-   font-style: italic;
-   font-weight: 300;
+  content: "May the cat be with you!";
+  color: aqua;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: 300;
 }
 
 /* Next participant */
@@ -1123,8 +1172,7 @@ body {
 }
 
 #participant-41 .participant-quote::before {
- content: "Don't just wish for it. Work for it."
-
+  content: "Don't just wish for it. Work for it.";
 }
 
 /* Next participant */

@@ -760,32 +760,30 @@ body {
 }
 /* Next participant */
 #participant-28 {
-  background-color: blanchedalmond;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ctext x='10' y='50' font-size='30'%3E🐱%3C/text%3E%3Ctext x='50' y='80' font-size='30'%3E😺%3C/text%3E%3Ctext x='60' y='30' font-size='30'%3E😸%3C/text%3E%3C/svg%3E");
-  background-size: 100px 100px;
-  animation: floatingCats 20s linear infinite;
-  -webkit-animation: floatingCats 20s linear infinite;
+background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDc4czFpenNpdDhibjQ5ZGlwbWdtNHpwc3Q2azZxY2o5NHR4cHM3eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0oQygeklvnX2/giphy.gif");
+background-size: cover;
 }
 
 #participant-28 .profile-photo {
-  background-image: url("../images/kan.jpg");
-  border-radius: 5%;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
+  background-image: url("../images/participant-photo.png");
+  opacity: 0;
 }
 
 #participant-28 .participant-name::before {
-  content: "28_Kao";
-  font-size: 2rem;
+  content: "Kao";
   color: whitesmoke;
-  -webkit-text-stroke: 0.5px rgb(95, 95, 95);
+  font-family: monospace;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
 }
 
 #participant-28 .participant-quote::before {
-  content: "My idol is SOHAM 😎";
+  content: "😎";
   color: white;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 300;
 }
 
 /* Next participant */

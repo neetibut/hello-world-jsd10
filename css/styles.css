@@ -656,9 +656,17 @@ body {
 
 /* Next participant */
 #participant-34 {
+  background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hnOWhhcHdodnFlYzF5azVoZGxjazUycWtzYW1nbHF4ZmN5dDk3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SLAe6QZljBbd6/giphy.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(238, 229, 151);
+  border-style: inset;
+}
+#participant-34:hover{
   background-image: linear-gradient(160deg,rgb(20, 145, 145) 0%, rgb(208, 241, 212) 60%,rgb(213, 235, 135));
   background-size: 12.5% 100%;
   border: 4px solid #f3ca61;
+  background-repeat: repeat;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.4);
   border-style: outset;
   border-radius: 15px;
@@ -667,13 +675,6 @@ body {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-#participant-34:hover{
-  background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2hnOWhhcHdodnFlYzF5azVoZGxjazUycWtzYW1nbHF4ZmN5dDk3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SLAe6QZljBbd6/giphy.gif");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: rgb(238, 229, 151);
-  border-style: inset;
-}
 @keyframes changeDir{
   0% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
   25% { transform: translateX(30px) rotate(40deg); -webkit-transform: translateX(30px) rotate(40deg); -moz-transform: translateX(30px) rotate(40deg); -ms-transform: translateX(30px) rotate(40deg); -o-transform: translateX(30px) rotate(40deg); }
@@ -681,22 +682,26 @@ body {
   100% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
 }
 #participant-34 .profile-photo {
+  opacity: 0;
+}
+#participant-34:hover .profile-photo {
+  opacity: 1;
   background-image: url("../images/boom03.png");
   background-size: 90%;
   background-repeat: no-repeat;
   border: none;
   box-shadow: 0 5px 10px rgb(95, 111, 82, 0.7);
   height: 90px;
-  animation: changeDir 15s infinite;
+  animation: changeDir 0.5s infinite;
   border-radius: 25%;
   -webkit-border-radius: 25%;
   -moz-border-radius: 25%;
   -ms-border-radius: 25%;
   -o-border-radius: 25%;
-  -webkit-animation: changeDir 15s infinite;
-}
-#participant-34:hover .profile-photo {
-  opacity: 0;
+  -webkit-animation: changeDir 0.01s infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
 }
 #participant-34 .participant-name::before {
   content: "Suvitcha(บูม)";

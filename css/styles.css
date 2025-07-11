@@ -282,19 +282,23 @@ body {
 
 /* Next participant */
 #participant-12 {
-  background-color: white;
+  background-color: green;
+  border-color: white;
+  border-style: dotted;
 }
 
 #participant-12 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/TleToob.jpg");
 }
 
 #participant-12 .participant-name::before {
   content: "Metee Wongjun-in";
+  color: white;
 }
 
 #participant-12 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Try Is Good";
+  color: white;
 }
 
 /* Next participant */

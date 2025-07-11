@@ -698,16 +698,16 @@ body {
 
 /* Next participant */
 #participant-37 {
-  background-color: white;
+  background-image: url(../../../../Downloads/3309af3a1e2af328c6f1fcc11f9284eb.jpg);
 }
 #participant-37 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("c:\Users\thuny\Downloads\IMG_1273.jpg");
 }
 #participant-37 .participant-name::before {
   content: "Thunyaluk Luecha";
-}
+
 #participant-37 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "nice to meet you"
 }
 
 /* Next participant */

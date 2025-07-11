@@ -798,19 +798,23 @@ body {
 
 /* Next participant */
 #participant-30 {
-  background-color: white;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnRndWdod3AzanRsN2F2eG8xZDU3dWZ3ZWFnNG1pNGF1aTEyZjZmZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/krQzJaxbU1aXS/giphy.gif);
+  background-size: cover;
 }
 
 #participant-30 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("/images/Deathly_Hallows_Sign.png");
 }
 
 #participant-30 .participant-name::before {
   content: "Suchakree (Fluke)";
+  color: gold;
 }
 
 #participant-30 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "This is the way";
+  color: red;
+  font-weight: bolder;
 }
 
 /* Next participant */

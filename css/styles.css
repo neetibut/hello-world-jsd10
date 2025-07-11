@@ -675,13 +675,15 @@ body {
   border-style: inset;
 }
 @keyframes changeDir{
-0% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
-25% { transform: translateX(30px) rotate(40deg); -webkit-transform: translateX(30px) rotate(40deg); -moz-transform: translateX(30px) rotate(40deg); -ms-transform: translateX(30px) rotate(40deg); -o-transform: translateX(30px) rotate(40deg); }
-75% { transform: translateX(-30px) rotate(-40deg); -webkit-transform: translateX(-30px) rotate(-40deg); -moz-transform: translateX(-30px) rotate(-40deg); -ms-transform: translateX(-30px) rotate(-40deg); -o-transform: translateX(-30px) rotate(-40deg); }
-100% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
+  0% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
+  25% { transform: translateX(30px) rotate(40deg); -webkit-transform: translateX(30px) rotate(40deg); -moz-transform: translateX(30px) rotate(40deg); -ms-transform: translateX(30px) rotate(40deg); -o-transform: translateX(30px) rotate(40deg); }
+  75% { transform: translateX(-30px) rotate(-40deg); -webkit-transform: translateX(-30px) rotate(-40deg); -moz-transform: translateX(-30px) rotate(-40deg); -ms-transform: translateX(-30px) rotate(-40deg); -o-transform: translateX(-30px) rotate(-40deg); }
+  100% { transform: translateX(0px) rotate(0deg); -webkit-transform: translateX(0px) rotate(0deg); -moz-transform: translateX(0px) rotate(0deg); -ms-transform: translateX(0px) rotate(0deg); -o-transform: translateX(0px) rotate(0deg); }
 }
 #participant-34 .profile-photo {
-  background-image: url("../images/boom01.png");
+  background-image: url("../images/boom03.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
   border: none;
   box-shadow: 0 5px 10px rgb(95, 111, 82, 0.7);
   height: 90px;
@@ -697,15 +699,15 @@ body {
   opacity: 0;
 }
 #participant-34 .participant-name::before {
-    content: "Suvitcha(บูม)";
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 2px #29a6aa;
-    font-weight: 500;
-    font-family: Trade Winds;
-    font-size: 1.1rem;
-    letter-spacing: 2.5px;
-    animation: pulsate 2.5s infinite alternate;
-    -webkit-animation: pulsate 2.5s infinite alternate;
+  content: "Suvitcha(บูม)";
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px #29a6aa;
+  font-weight: 500;
+  font-family: Trade Winds;
+  font-size: 1.1rem;
+  letter-spacing: 2.5px;
+  animation: pulsate 2.5s infinite alternate;
+  -webkit-animation: pulsate 2.5s infinite alternate;
 }
 @keyframes pulsate {
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
@@ -732,8 +734,8 @@ body {
   letter-spacing: 2.5px;
 }
 #participant-34 .participant-quote::before {
-     content: "ความสำเร็จไม่ได้สร้างเสร็จในวันเดียว" ;
-     font-size: 0.8rem;
+  content: "ความสำเร็จไม่ได้สร้างเสร็จในวันเดียว" ;
+  font-size: 0.8rem;
   font-style: normal;
 }
 #participant-34:hover .participant-quote::before {

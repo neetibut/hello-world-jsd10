@@ -473,19 +473,26 @@ body {
 
 /* Next participant */
 #participant-15 {
-  background-color: white;
+  background-image: url("../images/15_Background.jpeg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid #D86487;
 }
 
 #participant-15 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/15_Profile.png");
 }
 
 #participant-15 .participant-name::before {
-  content: "Nongnapas Thongruang";
+  content: "Nongnapasbb";
+  color: #D86487;
+  font-weight: bold;
 }
 
 #participant-15 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "She flies by her own wings🧚🏻‍♀️";
+  color: white;
 }
 
 /* Next participant */

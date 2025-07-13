@@ -712,17 +712,19 @@ body {
 
 /* Next participant */
 #participant-38 {
-  background-color: white;
+  background-color: rgb(146, 211, 33);
+  border: 3px solid #b6cd08;
 }
 #participant-38 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/kyo\ roll\ en.jpg");
 }
 #participant-38 .participant-name::before {
   content: "Titinart Kamsa-ard";
-
+  color:blanchedalmond;
 }
 #participant-38 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Be the person your dog thinks you are.🧚‍♀️";
+  color:rgb(113, 76, 20);
 }
 
 /* Next participant */

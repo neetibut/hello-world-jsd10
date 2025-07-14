@@ -923,19 +923,24 @@ background-size: cover;
 
 /* Next participant */
 #participant-32 {
-  background-color: white;
+  background-image: url("https://images.randomc.net/JoJos%20Bizarre%20Adventure%20The%20Animation/JoJo's%20Bizarre%20Adventure%20Stone%20Ocean%20S3%20-%20ED%20-%20Large%2001.jpg");
+  background-size: cover;
 }
 
 #participant-32 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("https://pbs.twimg.com/media/Enl28tRW8AEUS2-.jpg");
+  background-size: cover;
 }
 
 #participant-32 .participant-name::before {
   content: "Supanat Prakobkham";
+  display: flex;
+  color: rgb(255, 21, 76);
 }
 
 #participant-32 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Do it or Don't, It's your choice."  ;
+  color: rgb(10, 126, 149) ;
 }
 
 /* Next participant */

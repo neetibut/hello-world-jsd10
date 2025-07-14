@@ -662,20 +662,34 @@ body {
 
 /* Next participant */
 #participant-23 {
-  background-color: white;
+  background: linear-gradient(135deg, #1e1e1e 0%, #2c2c2c 100%);
+  border: 2px solid #ff3b3b;
+  box-shadow: 0 0 10px rgba(255, 59, 59, 0.7), 0 0 20px rgba(255, 59, 59, 0.5);
+  border-radius: 12px;
 }
 
 #participant-23 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/photo-23.gif");
+  border: 2px solid #ff3b3b;
+  box-shadow: 0 0 8px rgba(255, 59, 59, 0.6);
 }
 
 #participant-23 .participant-name::before {
-  /* content: "Your Name Here"; */
   content: "Ratthasart Piluek";
+  color: #ffffff88;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Caveat", cursive;
+  text-shadow: 0 0 4px #ff3b3b;
 }
 
 #participant-23 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "“I am Schrödinger's cat.”";
+  color: #ffffff88;
+  font-size: 13px;
+  font-style: italic;
+  font-family: "Caveat", cursive;
+  text-shadow: 0 0 3px #ff3b3b;
 }
 
 /* Next participant */

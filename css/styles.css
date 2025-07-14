@@ -271,19 +271,19 @@ body {
 
 /* Next participant */
 #participant-6 {
-  background-color: white;
+  background-color:#f0ec08;
 }
 
 #participant-6 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/the-matrix.jpg");
 }
 
 #participant-6 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "Jaysan Jiranavadon";
 }
 
 #participant-6 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "I'll be back"
 }
 
 /* Next participant */
@@ -401,20 +401,39 @@ body {
 
 /* Next participant */
 #participant-11 {
-  background-color: white;
-}
+  background-image: url("../images/Man.png");
+  position: relative;
+  background-size: cover;
+  }
 
 #participant-11 .profile-photo {
   background-image: url("../images/participant-photo.png");
+  display: none;
 }
 
 #participant-11 .participant-name::before {
-  content: "Metee Suwannason";
-}
+  content: "Metee(Man)";
+ position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  }
 
 #participant-11 .participant-quote::before {
-  content: "okzig";
-}
+  content:"อุปทานขันธ์ 5 เป็นทุกข์";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;          /* or inline-block */
+  width: 100%;             /* span full width of #participant-11 */
+  text-align: center;      /* center the text */
+  white-space: nowrap;     /* prevent it from wrapping */
+  color: #fff;
+  font-style: italic;
+  font-size: 0.8rem;
+   }
 
 /* Next participant */
 #participant-12 {
@@ -1177,10 +1196,7 @@ background-size: cover;
 
 #participant-37 .participant-name::before {
   content: "Thunyaluk Luecha";
-<<<<<<< HEAD
-=======
 }
->>>>>>> f937ff61fb364051761878fea6727059c6d8c431
 
 #participant-37 .participant-quote::before {
   content: "nice to meet you"
@@ -1188,19 +1204,22 @@ background-size: cover;
 
 /* Next participant */
 #participant-38 {
-  background-color: white;
+  background-color: rgb(146, 211, 33);
+  border: 3px solid #b6cd08;
 }
 
 #participant-38 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/kyo\ roll\ en.jpg");
 }
 
 #participant-38 .participant-name::before {
   content: "Titinart Kamsa-ard";
+  color:blanchedalmond;
 }
 
 #participant-38 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Be the person your dog thinks you are.🧚‍♀️";
+  color:rgb(113, 76, 20);
 }
 
 /* Next participant */

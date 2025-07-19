@@ -990,20 +990,106 @@ background-size: cover;
 }
 
 /* Next participant */
+
 #participant-33 {
+  position: relative;
   background-color: white;
+  border-radius: 20px;
+  border: 3px solid rgba(200, 240, 255, 0.9);
+  box-shadow: 0 0 25px rgba(173, 216, 230, 0.6);
+  overflow: hidden;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#participant-33::before {
+  content: "";
+  position: absolute;
+  top: -0.1px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+  url("https://img.freepik.com/premium-photo/ice-winter-background-blue-ice-floor-texture-mist-snow-ice-background_154739-8394.jpg?w=360");
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: floatSteam 2s ease-in-out infinite;
+  z-index: 0;
+  -webkit-animation: floatSteam 2s ease-in-out infinite;
 }
 
 #participant-33 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image:url("https://png.pngtree.com/png-clipart/20250201/original/pngtree-a-detailed-ice-cube-with-frozen-bubbles-inside-on-white-background-png-image_20364622.png");
+  width: 140px;
+  height: 100px;
+  position: relative;
+  border: none;
+}
+
+#participant-33 .profile-photo::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: radial-gradient(rgba(4, 194, 252, 0.5), transparent);
+  animation: pulse 1s infinite;
+  -webkit-animation: pulse 1s infinite;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
 #participant-33 .participant-name::before {
-  content: "Supasin Nakphu";
+  content: "Supasin Ice";
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Trade Winds", cursive;
+  color: #002ffefb;
+  text-shadow:
+  0 0 1px #ff0702,
+  0 0 5px #ff3b2a,
+  0 0 6px #ff6055,
+  0 0 1px #ff0000; 
+  position: relative;
 }
 
 #participant-33 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Printf";
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Trade Winds", cursive;
+  color: #0602ff;
+  text-shadow:
+    0 0 1px #ff0702,
+    0 0 5px #ff3b2a,
+    0 0 6px #ff6055,
+    0 0 1px #ff0000; 
+  position: relative;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+@keyframes floatSteam {
+  0% { transform: translateY(0px); -webkit-transform: translatey(0px); -moz-transform: translatey(0px); -ms-transform: translatey(0px); -o-transform: translatey(0px); }
+  50% { transform: translateY(-5px); -webkit-transform: translateY(-5px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); }
+  100% { transform: translateY(5px); -webkit-transform: translateY(5px); -moz-transform: translateY(5px); -ms-transform: translateY(5px); -o-transform: translateY(5px); }
 }
 
 /* Next participant */

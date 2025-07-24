@@ -700,19 +700,37 @@ text-shadow: #353434;
 
 /* Next participant */
 #participant-24 {
-  background-color: white;
+  border-color: #FDD5DF;
 }
+
+/* #participant-24:hover {
+  background-image: url("../images/giselle-whiplash.gif");
+  background-size: cover;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-position: top;
+  border-style: none;
+} */
+  
 
 #participant-24 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("../images/GaBPElJaIAAFWBR.jpg");
+  background-position-y: 0px;
+  border-style: none;
 }
 
+/* #participant-24:hover .profile-photo {
+  opacity: 0;
+  border-style: none;
+} */
+
 #participant-24 .participant-name::before {
-  content: "Rosarin Rojritthakorn";
+  content: "Rosarin (Nice)";
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #participant-24 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "one look give em whiplash";
 }
 
 /* Next participant */
